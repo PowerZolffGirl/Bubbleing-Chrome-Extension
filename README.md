@@ -47,13 +47,13 @@
 <img src = "https://user-images.githubusercontent.com/78165538/170556843-1c7df14b-3259-40ea-bdf6-2109286cc925.png" width="700" height="350">
 
 ## 서비스 설치 및 테스트 방법
-### 프로젝트 clone 과 build  
+### :mag_right:프로젝트 clone 과 build  
 1) 명령 프롬프트를 열어  ``git clone https://github.com/PowerZolffGirl/Bubbleing-Chrome-Extension.git``  을 입력하여 현재 레포지토리를 클론합니다.
 2) 클론한 폴더를 vscode 등의 IDE 에서 오픈한 뒤, 터미널에서 ``npm install`` 을 입력하고 실행합니다.
 3) ``npm run-script build``  를 입력하여 프로젝트를 빌드한 뒤, ``npm start`` 를 입력하여 컴파일합니다.
 4) build 폴더가 생성되었으면, src 폴더에 있는 images 폴더를 build 폴더에 복사하여 붙여넣습니다.
 
-### 크롬 확장 프로그램 탑재  
+### :mag_right:크롬 확장 프로그램 탑재  
 1) 크롬을 열어 상단 주소창에 ``chrome://extensions/`` 를 입력하여 이동합니다.
 2) 우측 상단에 개발자 모드 버튼이 꺼져 있으면, 버튼을 켜줍니다.
 3) 좌측 상단에 생긴 "압축해제된 확장 프로그램을 로드합니다." 버튼을 클릭한 뒤, 프로젝트의 build 폴더를 선택하여 업로드합니다.
