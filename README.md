@@ -1,4 +1,4 @@
-# 딥러닝 기반 영상 콘텐츠 속 한국 음식 해설 서비스 버블링 (BUBBLEing)
+# 딥러닝 기반 영상 콘텐츠 속 한국음식 검출 및 해설 서비스 버블링 (BUBBLEing)
 
 <img src = "https://user-images.githubusercontent.com/78165538/170541583-7df1dffe-18a3-49f5-8c88-855c53ca74ed.png" width="700" height="400">
 
