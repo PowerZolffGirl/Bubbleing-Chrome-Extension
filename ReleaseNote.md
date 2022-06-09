@@ -1,6 +1,23 @@
 # Quick Start Guide
 
+## Clone & Build
+1. 명령 프롬프트를 열어 git clone https://github.com/PowerZolffGirl/Bubbleing-Chrome-Extension.git 을 입력하여 현재 레포지토리를 클론합니다.
+2. 클론한 폴더를 vscode 에서 오픈한 뒤, 터미널에서 npm install 을 입력하고 실행합니다.
+3. npm run-script build 를 입력하여 프로젝트를 빌드한 뒤, npm start 를 입력하여 컴파일합니다.
+4. build 폴더가 생성되었으면, src 폴더에 있는 images 폴더를 통째로 복사하여 build 폴더에 붙여넣습니다.
+<img src = "https://user-images.githubusercontent.com/78165538/172838802-c5940a6c-fce1-442b-9712-27ffc2921fca.png" width="300" height="150"><img src = "https://user-images.githubusercontent.com/78165538/172839603-9442d3d4-f85d-473d-8bd3-b7dc065ca738.png" width="300" height="150">
+
+
+
 ## Install
+1. 크롬 브라우저를 열고 상단 주소창에 chrome://extensions 을 입력하여 확장 프로그램 관리 페이지로 이동합니다.
+<img src = "https://user-images.githubusercontent.com/78165538/172838539-fe203024-773a-49a5-b47b-2989c8c26958.png" width="400" height="100">
+2. 우측 상단의 개발자모드 버튼을 켭니다.
+<img src = "https://user-images.githubusercontent.com/78165538/172841811-766a6608-29e1-44db-bbcc-b848bc471480.png" width="200" height="80">
+3. 좌측 상단에 나타난 '압축해제된 확장 프로그램을 로드합니다.' 버튼을 클릭한 뒤, 프로젝트의 build 폴더를 선택하여 업로드합니다.
+<img src = "https://user-images.githubusercontent.com/78165538/172841986-bf7c8def-ef65-4545-ada5-14f72ce38216.png" width="200" height="100">
+4. 아래와 같이 확장 프로그램이 나타나면 버튼을 켜고 실행합니다.
+<img src = "https://user-images.githubusercontent.com/78165538/172840352-d2621d2f-e684-47fa-b737-5dc864bb2427.png" width="300" height="150">
 
 
 ## Run
@@ -48,4 +65,8 @@ BUBBLEing탭 음식 이름 옆 북마크 버튼을 누르면 My List탭에 북�
 
 ![11  북마크탭에서 음식사진 클릭시 이동](https://user-images.githubusercontent.com/53907861/172631812-9dc33760-e4da-4201-ae40-05ff31e7e4d6.jpg)
 MyList탭에서 음식 사진 클릭시 해당 음식에 대한 상세정보를 확인할 수 있는 BUBBLEing탭으로 다시 이동합니다.
+
+### 참고 사항
+- 처음 프로그램을 켰을 때 모델이 로드되는 것 때문에 다소 버벅거리거나 영상이 멈추는 현상이 발생할 수 있습니다. 그런 경우 잠시 기다리면 모델이 로드되어 정상적으로 프로그램이 실행됩니다.
+- 만약 프로그램이 실행되지 않는 경우, 페이지 새로고침을 하면 제대로 실행됩니다.
 
