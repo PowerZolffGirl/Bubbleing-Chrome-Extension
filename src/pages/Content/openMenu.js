@@ -261,9 +261,9 @@ function addMyListItem(num) {
   myListItem.appendChild(myListImage);
   const myListLike = new Image();
   myListLike.className = 'my-list-like';
-  myListLike.id = `like-${num}`;
+  myListLike.id = `my-list-like-${num}`;
   myListLike.addEventListener('click', function (e) {
-    onClickMyListLike(e, num, `like-${num}`);
+    onClickMyListLike(e, num, `my-list-like-${num}`);
   });
   myListLike.src = chrome.runtime.getURL('images/on-like-button.png');
   myListItem.appendChild(myListLike);
