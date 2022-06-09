@@ -8,6 +8,12 @@ menuBar.classList.add('hidden');
 
 document.body.appendChild(menuBar);
 
+chrome.storage.local.get('myLists', function (result) {
+  if (!result.myLists) {
+    chrome.storage.local.set({ myLists: [] });
+  }
+});
+
 var closeButton = new Image();
 closeButton.id = 'close-btn';
 closeButton.src = chrome.runtime.getURL('images/x-button.png');
@@ -165,8 +171,8 @@ function onClickMyListItem(e, num) {
   nearMe.onclick = () => {
     window.open(
       'http://google.com/search?q=' +
-        classesDir[num].name +
-        ' restaurant near me',
+      classesDir[num].name +
+      ' restaurant near me',
       '_blank'
     );
   };
